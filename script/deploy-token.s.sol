@@ -10,7 +10,7 @@ contract Myscript is Script {
     function run() external {
         vm.startBroadcast();
 
-        myToken = new MyToken();
+        superSayianInu = new SuperSayianInu();
         vm.stopBroadcast();
     }
 }
