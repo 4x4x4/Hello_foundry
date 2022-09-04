@@ -5,7 +5,7 @@ import "@forge-std/src/Script.sol";
 import "@src/Token.sol"; 
 
 contract Myscript is Script {
-    MyToken myToken;
+    SuperSayianInu superSayianInu;
 
     function run() external {
         vm.startBroadcast();
