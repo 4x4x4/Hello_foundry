@@ -5,12 +5,12 @@ import "@forge-std/src/Script.sol";
 import "@src/Token.sol"; 
 
 contract Myscript is Script {
-    SuperSayianInu SuperSayianInu;
+    SuperSayianInu superSayianInu;
 
     function run() external {
         vm.startBroadcast();
 
-        SuperSayianInu = new SuperSayianInu();
+        superSayianInu = new SuperSayianInu();
         vm.stopBroadcast();
     }
 }
